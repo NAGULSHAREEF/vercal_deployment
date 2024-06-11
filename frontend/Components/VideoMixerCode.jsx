@@ -19,7 +19,7 @@ const VideoMixerCode = () => {
         formData.append('video2', video2);
   
         try {
-          const response = await axios.post('http://localhost:5000/mix-videos', formData, {
+          const response = await axios.post('http://vercal-deployment-backend.vercel.app/mix-videos', formData, {
             headers: {
               'Content-Type': 'ultipart/form-data',
             },

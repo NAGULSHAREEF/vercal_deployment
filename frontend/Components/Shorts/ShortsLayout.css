@@ -1,0 +1,61 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+  }
+  
+  .container {
+    margin-top: 50px;
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .mix-btn, .download-btn {
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .mix-btn:hover, .download-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .mixed-video-section {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .mt-3 {
+    margin-top: 1rem;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .col-md-6 {
+    flex: 1;
+    max-width: 50%;
+    padding: 10px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  @media (max-width: 768px) {
+    .col-md-6 {
+      max-width: 100%;
+    }
+  }
+  
