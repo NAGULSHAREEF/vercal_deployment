@@ -1,6 +1,7 @@
 import React ,{useState} from 'react'
 import axios from 'axios';
 import VideoUpload from './VideoUpload';
+import '../public/download-png.png'
 
 import '../src/App.css';
 
@@ -63,7 +64,7 @@ const VideoMixerCode = () => {
             <video controls src={mixedVideoUrl} className="w-100" style={{ width: '100%', height: '400px', borderRadius: '10px' }} />
             <div className='mt-3'>
             <a href={mixedVideoUrl} download="mixed_video.mp4" className="download-btn " style={{ backgroundColor: '#28a745', color: '#fff', padding: '10px 20px', borderRadius: '10px' }}>
-              <img src="../images/download-png.png" alt="Download Icon" style={{ width: '20px', height: '20px', borderRadius: '50%' }} />
+              <img src="../public/download-png.png" alt="Download Icon" style={{ width: '20px', height: '20px', borderRadius: '50%' }} />
               Download Mixed Video
             </a>
             </div>

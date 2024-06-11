@@ -1,6 +1,8 @@
 import React from 'react';
 import './WelcomePage.css'
 import VideoMixerCode from './VideoMixerCode';
+import '../public/photo12.png'
+import '../public/photo234.png'
 const WelcomePage = () => {
     
 
@@ -14,10 +16,10 @@ const WelcomePage = () => {
     </div>
    <div className='d-flex flex-row justify-content-evenly'>
    <div className="hero1" style={{ marginLeft: '20px' }}>
-    <img src="../images/photo234.png" alt="Hero" />
+    <img src="../public/photo234.png" alt="Hero" />
      </div>
      <div className="hero" style={{ marginLeft: '20px' }}>
-    <img src="../images/photo12.png" alt="Hero Image" />
+    <img src="../public/photo12.png" alt="Hero Image" />
      </div>
   </div>
 <ul className="bg-bubbles">
